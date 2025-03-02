@@ -14,7 +14,7 @@ app.use(cookieParser());
 app.use(morgan('dev'));
 app.use(
   cors({
-    origin: "https://testing-be-job.onrender.com",
+    origin: "https://testingjob.netlify.app",
     credentials: true,
   })
 );
